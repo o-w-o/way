@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [初章 - 构想集](README.md)
 
