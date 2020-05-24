@@ -4,11 +4,11 @@ description: 工作流概览。
 
 # 概览
 
+![&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#x56FE; - &#x6765;&#x6E90;&#xFF1A;gitlab.com](../.gitbook/assets/image.png)
+
 ![&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#x56FE; - &#x6765;&#x6E90;&#xFF1A;gitlab.com](../.gitbook/assets/image%20%281%29.png)
 
-![&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#x56FE; - &#x6765;&#x6E90;&#xFF1A;gitlab.com](../.gitbook/assets/image%20%282%29.png)
-
-### **想法 Idea**
+## **起步 Idea**
 
 <table>
   <thead>
@@ -31,7 +31,9 @@ description: 工作流概览。
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>&#x9879;&#x76EE;&#x6838;&#x5FC3;&#x3001;&#x57FA;&#x672C;&#x7EC4;&#x7EC7;&#x67B6;&#x6784;&#xFF0C;&#x7B49;</li>
+          <li>&#x9879;&#x76EE;&#x6838;&#x5FC3;</li>
+          <li>&#x57FA;&#x672C;&#x7EC4;&#x7EC7;&#x67B6;&#x6784;</li>
+          <li>&#x2026;&#x2026;</li>
         </ul>
       </td>
     </tr>
@@ -56,7 +58,7 @@ description: 工作流概览。
   </tbody>
 </table>### 
 
-### 架构 Architecture
+## 架构 Architecture
 
 <table>
   <thead>
@@ -87,28 +89,27 @@ description: 工作流概览。
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x8BBE;&#x8BA1;&#xFF08;&#x7528;&#x6237;&#x4EA4;&#x4E92;&#xFF09;</td>
-      <td
-      style="text-align:left">
+      <td style="text-align:left">&#x8BBE;&#x8BA1;&#xFF08;UI&#xFF09;</td>
+      <td style="text-align:left">
         <p></p>
         <ul>
           <li>Figma</li>
         </ul>
-        </td>
-        <td style="text-align:left">
-          <p></p>
-          <ul>
-            <li>&#x7EBF;&#x6846;&#x56FE;</li>
-            <li>&#x539F;&#x578B;&#x56FE;</li>
-            <li>&#x7EC4;&#x4EF6;&#x8BBE;&#x8BA1;</li>
-            <li>&#x2026;&#x2026;</li>
-          </ul>
-        </td>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>&#x7EBF;&#x6846;&#x56FE;</li>
+          <li>&#x539F;&#x578B;&#x56FE;</li>
+          <li>&#x7EC4;&#x4EF6;&#x8BBE;&#x8BA1;</li>
+          <li>&#x2026;&#x2026;</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>### 
 
-### 实现 Implement
+## 实现 Implement
 
 <table>
   <thead>
@@ -166,9 +167,13 @@ description: 工作流概览。
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>### 
+</table>具体详见
 
-### 部署 Deploy
+{% page-ref page="gitflow.md" %}
+
+
+
+## 部署 Deploy
 
 <table>
   <thead>
@@ -206,10 +211,15 @@ description: 工作流概览。
       </td>
       <td style="text-align:left"></td>
     </tr>
+    <tr>
+      <td style="text-align:left">&#x6D4B;&#x8BD5; / &#x56DE;&#x6EDA;</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
   </tbody>
 </table>### 
 
-### 反馈 Feedback
+## 反馈 Feedback
 
 <table>
   <thead>
