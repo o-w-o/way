@@ -25,11 +25,11 @@
   * [Way](properties/data-model/way.md)
 * [视图模型](properties/view-model/README.md)
   * [Ink](properties/view-model/ink/README.md)
-    * [Paper —— 容器](properties/view-model/ink/paper.md)
-    * [I —— 书写](properties/view-model/ink/input/README.md)
+    * [Paper — 📔 容器](properties/view-model/ink/paper.md)
+    * [Ink — 💡 书写](properties/view-model/ink/input/README.md)
       * [Editor](properties/view-model/ink/input/editor.md)
       * [Form](properties/view-model/ink/input/form.md)
-    * [O —— 笔迹](properties/view-model/ink/output/README.md)
+    * [Ink — 📜 笔迹](properties/view-model/ink/output/README.md)
       * [Collection](properties/view-model/ink/output/collection.md)
       * [Graph](properties/view-model/ink/output/graph.md)
 
@@ -38,6 +38,7 @@
 * [概要](stack/summary.md)
 * [后端](stack/server.md)
 * [前端](stack/client.md)
+* [运维](stack/devops.md)
 
 ## 附录 <a id="appendixs"></a>
 
