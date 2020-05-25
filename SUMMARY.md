@@ -1,9 +1,31 @@
 # Table of contents
 
-* [初章 - 构想集](README.md)
+* [烛火录](README.md)
 
-## 第一章 - 工作流
+## 初章 - 构想集 <a id="formulation"></a>
 
-* [概览](di-yi-zhang-gong-zuo-liu/workflow.md)
-* [Git 工作流](di-yi-zhang-gong-zuo-liu/gitflow.md)
+* [简介](formulation/jian-jie.md)
+
+## 第一章 - 工作流 <a id="workflow"></a>
+
+* [概要](workflow/summary.md)
+
+## 第二章 - 原型堆 <a id="properties"></a>
+
+* [数据模型](properties/data-model/README.md)
+  * [Dot](properties/data-model/dot.md)
+  * [Org](properties/data-model/org.md)
+  * [Symbols](properties/data-model/symbols.md)
+  * [Way](properties/data-model/way.md)
+* [视图模型](properties/view-model.md)
+
+## 第三章 - 技术栈 <a id="stack"></a>
+
+* [概要](stack/summary.md)
+
+## 附录 <a id="appendixs"></a>
+
+* [附录：git commit 规范](appendixs/appendix-git-commit.md)
+* [附录：常见 gitflow](appendixs/appendix-gitflow.md)
+* [附录：常见 gitemoji](appendixs/appendix-gitemoji.md)
 
