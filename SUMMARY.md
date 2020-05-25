@@ -4,7 +4,7 @@
 
 ## 初章 - 构想集 <a id="formulation"></a>
 
-* [简介](formulation/jian-jie.md)
+* [简介](formulation/summary.md)
 
 ## 第一章 - 工作流 <a id="workflow"></a>
 
