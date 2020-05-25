@@ -29,6 +29,8 @@
 ## 第三章 - 技术栈 <a id="stack"></a>
 
 * [概要](stack/summary.md)
+* [后端](stack/server.md)
+* [前端](stack/client.md)
 
 ## 附录 <a id="appendixs"></a>
 
