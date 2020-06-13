@@ -10,7 +10,7 @@
 
 * [概要](workflow/summary.md)
 * [起步 Idea](workflow/idea/README.md)
-  * [录和路](workflow/idea/way.md)
+  * [录和路 🪔](workflow/idea/way.md)
   * [引用和连接 🔗](workflow/idea/ref-rel.md)
 * [架构 Architecture](workflow/architecture.md)
 * [实现 Implement](workflow/implement.md)
