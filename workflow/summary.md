@@ -4,7 +4,7 @@
 
 参考了 Gitlab、Github 等 的 Devops 工作流。
 
-{% page-ref page="idea.md" %}
+{% page-ref page="idea/" %}
 
 {% page-ref page="architecture.md" %}
 

@@ -4,7 +4,7 @@
 
 {% page-ref page="org.md" %}
 
-{% page-ref page="symbols.md" %}
+{% page-ref page="ink.md" %}
 
 {% page-ref page="way.md" %}
 

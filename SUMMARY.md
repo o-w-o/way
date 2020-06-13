@@ -9,7 +9,9 @@
 ## 第一章 - 工作流 <a id="workflow"></a>
 
 * [概要](workflow/summary.md)
-* [起步 Idea](workflow/idea.md)
+* [起步 Idea](workflow/idea/README.md)
+  * [录和路](workflow/idea/way.md)
+  * [引用和连接 🔗](workflow/idea/ref-rel.md)
 * [架构 Architecture](workflow/architecture.md)
 * [实现 Implement](workflow/implement.md)
 * [部署 Deploy](workflow/deploy.md)
@@ -21,13 +23,13 @@
 * [数据模型](properties/data-model/README.md)
   * [Dot](properties/data-model/dot.md)
   * [Org](properties/data-model/org.md)
-  * [Symbols](properties/data-model/symbols.md)
+  * [Ink](properties/data-model/ink.md)
   * [Way](properties/data-model/way.md)
 * [视图模型](properties/view-model/README.md)
-  * [Ink](properties/view-model/ink/README.md)
-    * [Paper — 载体](properties/view-model/ink/paper.md)
-    * [Ink — 书写](properties/view-model/ink/input.md)
-    * [Ink — 笔迹](properties/view-model/ink/output.md)
+  * [Symbols](properties/view-model/symbols/README.md)
+    * [Paper — 载体](properties/view-model/symbols/paper.md)
+    * [Ink — 书写](properties/view-model/symbols/input.md)
+    * [Ink — 笔迹](properties/view-model/symbols/output.md)
 
 ## 第三章 - 技术栈 <a id="stack"></a>
 
