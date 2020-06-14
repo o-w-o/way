@@ -6,7 +6,7 @@
 
 {% page-ref page="idea/" %}
 
-{% page-ref page="architecture.md" %}
+{% page-ref page="architecture/" %}
 
 {% page-ref page="implement.md" %}
 
