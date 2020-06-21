@@ -1,2 +1,2 @@
-# Way
+# Way - Trace
 

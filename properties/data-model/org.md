@@ -1,4 +1,4 @@
-# Org
+# Org - Relationship
 
 Symbols 的类属描述。同 Dot 一样的 `type ⇥ space` 结构。
 
