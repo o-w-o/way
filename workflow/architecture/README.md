@@ -17,7 +17,8 @@
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>Plantuml</li>
+          <li><a href="https://plantuml.com/">Plantuml</a>
+          </li>
         </ul>
         <p></p>
       </td>
@@ -36,7 +37,8 @@
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>Figma</li>
+          <li><a href="https://figma.com">Figma</a>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">

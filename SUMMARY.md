@@ -10,10 +10,11 @@
 
 * [概要](workflow/summary.md)
 * [起步 Idea](workflow/idea/README.md)
-  * [录和路 🪔](workflow/idea/way.md)
+  * [录和路 🪔](workflow/idea/dot-way.md)
   * [相遇和相忘 🔗](workflow/idea/ref-rel.md)
 * [架构 Architecture](workflow/architecture/README.md)
   * [Ops](workflow/architecture/ops.md)
+  * [App](workflow/architecture/app.md)
 * [实现 Implement](workflow/implement.md)
 * [部署 Deploy](workflow/deploy.md)
 * [反馈 Feedback](workflow/feedback.md)

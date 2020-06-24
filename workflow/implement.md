@@ -17,8 +17,7 @@
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>GitHub</li>
-          <li>Git</li>
+          <li>GitHub &amp; Git</li>
           <li>IDEA</li>
         </ul>
       </td>
@@ -35,7 +34,7 @@
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>Jenkins</li>
+          <li>Github Action</li>
         </ul>
       </td>
       <td style="text-align:left">
