@@ -10,13 +10,13 @@
 
 单主干的分支实践（Trunk-based development，TBD）在 SVN 中比较流行。[Google](http://paulhammant.com/2013/05/06/googles-scaled-trunk-based-development/) 和 [Facebook](http://paulhammant.com/2013/03/13/facebook-tbd-take-2/) 都使用这种方式。trunk 是 SVN 中主干分支的名称，对应到 Git 中则是 master 分支。TBD 的特点是所有团队成员都在单个主干分支上进行开发。当需要发布时，先考虑使用标签（tag），即 tag 某个 commit 来作为发布的版本。如果仅靠 tag 不能满足要求，则从主干分支创建发布分支。bug 修复在主干分支中进行，再 cherry-pick 到发布分支。图 1 是 TBD 中分支流程的示意图。
 
-![&#x56FE; 1. TBD &#x4E2D;&#x7684;&#x5206;&#x652F;&#x6D41;&#x7A0B;&#x7684;&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/image%20%282%29.png)
+![&#x56FE; 1. TBD &#x4E2D;&#x7684;&#x5206;&#x652F;&#x6D41;&#x7A0B;&#x7684;&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/image-trunk-flow.png)
 
 由于所有开发人员都在同一个分支上工作，团队需要合理的分工和充分的沟通来保证不同开发人员的代码尽可能少的发生冲突。持续集成和自动化测试是必要的，用来及时发现主干分支中的 bug。因为主干分支是所有开发人员公用的，一个开发人员引入的 bug 可能对其他很多人造成影响。不过好处是由于分支所带来的额外开销非常小。开发人员不需要频繁在不同的分支之间切换。
 
 ### **Feature-Based，Git-Flow 及其衍生** 
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image-git-flow.png)
 
 ### **Aone-Flow**
 
@@ -36,19 +36,19 @@ AoneFlow 基本上兼顾了 TrunkBased 的“易于持续集成”和 GitFlow �
 
   每当开始一件新的工作项（feature\|hotfix）的时候，就从主干分支（master）上创建一个以 `feature/*` 前缀命名的特性分支，然后在这个分支上提交代码修改。也就是说，每个工作项（独自或协同完成）对应一个特性分支，所有的修改都不允许直接提交到主干。
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image-aone-1.png)
 
 * **规则二，通过合并特性分支，形成发布分支。**
 
   从主干上拉出一条新分支，将所有本次要集成或发布的特性分支依次合并过去，从而得到发布分支（qa\|prod） 。发布分支通常以 `release/*` 命名。
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image-aone-2.png)
 
 * **规则三，发布到线上正式环境后，合并相应的发布分支到主干，在主干添加标签，同时删除该发布分支关联的特性分支。**
 
   当一条发布分支上的流水线完成了一次线上正式环境的部署，就意味着相应的功能真正的发布了，此时应该将这条发布分支合并到主干，并清理掉已经上线部分的特性分支。主干分支上的最新版本始终与线上版本一致，如果要回溯历史版本，只需在主干分支上找到相应的版本标签即可。
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image-aone-3.png)
 
 ## 通用规则
 
