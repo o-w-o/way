@@ -1,4 +1,4 @@
-# 附录：常见 gitemoji
+# 附录：Git Emoji
 
 
 
