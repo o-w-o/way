@@ -4,7 +4,7 @@ description: UTM 参数介绍
 
 # 附录：UTM - Urchin Tracking Module
 
-## 什么是 `UTM` 参数
+##  `UTM` 简介
 
 `UTM` 参数的全名是 `Urchin Tracking Module` 。UTM 是 Urchin Tracking Module 的缩写，是 Google 用来追踪网址 \(URL\) 的格式。Urchin 其实是 Google 在 2004 年买下的一间软件公司，这个公司的产品 Urchin 软件随后也演变成今日的 Google Analytics。 现在 UTM 成了跟踪参数的标准，所以无论是 Google 还是百度统计都是支持的。
 
