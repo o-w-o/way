@@ -42,9 +42,10 @@
 
 ## 附录 <a id="appendixs"></a>
 
+* [百科](appendixs/explanation/README.md)
+  * [Git Flow](appendixs/explanation/appendix-gitflow.md)
+  * [Git Emoji](appendixs/explanation/appendix-gitemoji.md)
+  * [UTM - Urchin Tracking Module](appendixs/explanation/utm.md)
+  * [Open Graph 标签](appendixs/explanation/open-graph.md)
 * [Git Commit 规范](appendixs/appendix-git-commit.md)
-* [Git Flow](appendixs/appendix-gitflow.md)
-* [Git Emoji](appendixs/appendix-gitemoji.md)
-* [UTM - Urchin Tracking Module](appendixs/utm.md)
-* [Open Graph 标签](appendixs/open-graph-biao-qian.md)
 
