@@ -42,9 +42,9 @@
 
 ## 附录 <a id="appendixs"></a>
 
-* [附录：Git Commit 规范](appendixs/appendix-git-commit.md)
-* [附录：Git Flow](appendixs/appendix-gitflow.md)
-* [附录：Git Emoji](appendixs/appendix-gitemoji.md)
-* [附录：UTM - Urchin Tracking Module](appendixs/utm.md)
+* [Git Commit 规范](appendixs/appendix-git-commit.md)
+* [Git Flow](appendixs/appendix-gitflow.md)
+* [Git Emoji](appendixs/appendix-gitemoji.md)
+* [UTM - Urchin Tracking Module](appendixs/utm.md)
 * [Open Graph 标签](appendixs/open-graph-biao-qian.md)
 

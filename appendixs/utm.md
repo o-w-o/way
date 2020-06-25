@@ -2,7 +2,7 @@
 description: UTM 参数介绍
 ---
 
-# 附录：UTM - Urchin Tracking Module
+# UTM - Urchin Tracking Module
 
 ##  `UTM` 简介
 

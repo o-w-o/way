@@ -1,4 +1,4 @@
-# 附录：Git Flow
+# Git Flow
 
 ## 常见策略
 
