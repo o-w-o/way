@@ -1,8 +1,6 @@
 # Dot - Reference
 
-Symbols  的最基本组成单位，也是引用的基本组成单元。由 Dot、DotType 和 DotSpace 组成。其中，Dot 和 DotType 属于包含了公共属性对象，具体的能力由继承了 DotSpace 的类来实现。
-
-![Dot UML 类图](https://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/o-w-o/way/master/properties/data-model/dot.puml)
+Ink 的最基本组成单位，也是引用的基本组成单元。由 Dot、DotType 和 DotSpace 组成。其中，Dot 和 DotType 属于包含了公共属性对象，具体的能力由继承了 DotSpace 的类来实现。
 
 {% tabs %}
 {% tab title="Dot" %}

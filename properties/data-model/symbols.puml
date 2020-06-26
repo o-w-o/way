@@ -1,0 +1,129 @@
+@startuml
+
+
+
+package o.w.o.server.io.db {
+    annotation EntityEnumerated {}
+    class EntityIdentity {}
+    class EntitySpace<EntityType> extends EntityIdentity {}
+    class EntityWithSpace<EntityType, EntitySpace> extends EntityIdentity {}
+}
+
+class EntityType {
+  + EntityType(EntityTypeEnum type)
+}
+enum EntityTypeEnum {
+  + Integer id
+  + String typeName
+}
+interface EntityTypeRepository<Integer, EntityType> {
+  + save(EntityType type)
+}
+
+EntityType *-- EntityEnumerated
+EntityTypeRepository *-- EntityEnumerated
+EntityTypeEnum *-- EntityEnumerated
+
+package o.w.o.server.io.runner {
+    class EnumeratedEntitySetupRunner {}
+    note bottom of EnumeratedEntitySetupRunner
+      基于 <b>@EntityEnumerated</b> 注解
+      借助 <b>EntityTypeRepository</b>
+      使用 <b>EntityTypeEnum</b> 枚举
+      进行实体 <b>EntityType</b> 收集和持久化
+    end note
+}
+EnumeratedEntitySetupRunner -right--* EntityEnumerated
+
+package o.w.o.resource.symbol {
+  package domain {
+    class EntityA extends EntityWithSpace {
+     + EntityAType type
+     + EntityASpace space
+     + String spaceId
+     + Json spaceContent
+    }
+
+    class EntityAType {
+      + EntityAType from(EntityATypeEnum type)
+    }
+
+    enum EntityATypeEnum {
+      Integer id;
+      String typeName;
+    }
+
+    class EntityATypeName {
+    }
+
+    abstract class EntityASpace extends EntitySpace {
+     + String id
+     + Map<String, Object> space
+     + Json spaceSchema
+     + EntityAType type
+    }
+
+    package ext.space {
+     class ImplementedEntitySpace extends EntityASpace {
+       EntityAType type = EntityAType.X
+     }
+    }
+
+    EntityAType *-- EntityATypeEnum
+    EntityAType *-- EntityATypeName
+
+    EntityA *-- EntityAType : 具象化依据
+    EntityA *- EntityASpace : 抽象化载体
+
+    EntityASpace -left--|> ext.space : 具象化载体实例
+
+  }
+
+  package repository {
+    interface EntityARepository {
+      + save(EntityA entityA)
+    }
+  }
+  EntityARepository -left-* EntityA
+
+  package service {
+    package handler {
+      package ext.handler {
+       class ImplementedEntityASpaceHandler {
+         + save(EntityA entityA)
+       }
+      }
+      abstract EntityASpaceHandler {
+        + save(EntityA entityA)
+      }
+      annotation EntityATypeSelector {}
+      class EntityASpaceHandlerHolder implements ApplicationContextAware {
+        + Optional<EntityASpaceHandler> select(EntityAType entityAType)
+      }
+    }
+
+    note left of EntityASpaceHandlerHolder
+    程序启动后 收集 <b>@EntityATypeSelector</b> 注解的 Handler，
+    执行时 通过 <b>select</b> 方法调用响应 Handler
+    end note
+
+    class EntityAService {
+      + save(EntityA entityA)
+    }
+
+    EntityASpaceHandlerHolder <- EntityATypeSelector : 执行者收集
+    EntityASpaceHandlerHolder <-- EntityASpaceHandler : 执行者定义
+
+    EntityASpaceHandler --|> ext.handler : 具体执行者
+
+    ImplementedEntityASpaceHandler -> EntityARepository
+    EntityAService --> EntityASpaceHandlerHolder
+  }
+}
+
+package o.w.o.api.symbol <<Cloud>> #Gold {
+  class EntityAAPI{}
+}
+
+o.w.o.api.symbol --* EntityAService : 调用服务层进行接口响应
+@enduml
