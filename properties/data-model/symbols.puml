@@ -84,7 +84,7 @@ package o.w.o.resource.symbol {
       + save(EntityA entityA)
     }
   }
-  EntityARepository -left-* EntityA
+  EntityARepository -left---* EntityA
 
   package service {
     package handler {
