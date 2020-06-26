@@ -47,5 +47,6 @@
   * [Git Emoji](appendixs/wiki/git-emoji.md)
   * [UTM - Urchin Tracking Module](appendixs/wiki/utm.md)
   * [Open Graph 标签](appendixs/wiki/open-graph.md)
+  * [Semver](appendixs/wiki/semver.md)
 * [Git Commit 规范](appendixs/git-commit.md)
 

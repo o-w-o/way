@@ -1,19 +1,18 @@
 # 部署 Deploy
 
-
 ## 构建
 
 ### 交付物
-- Docker Image
+
+* Docker Image
 
 ### 工具
-- Jenkins
+
+* Jenkins
 
 ## 部署
-- Jenkins
+
+* Jenkins
 
 ## 测试 / 回滚
-
-
-### 
 

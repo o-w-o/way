@@ -1,6 +1,5 @@
 # 架构 Architecture
 
-
 ## 建模（UML）
 
 ### 交付物
@@ -11,8 +10,8 @@
 * ……
 
 ### 工具
-* [Plantuml](https://plantuml.com/)
 
+* [Plantuml](https://plantuml.com/)
 
 ## 设计（UI）
 
@@ -21,9 +20,7 @@
 * 组件设计
 * ……
 
-
 ### 工具
-* [Figma](https://figma.com)
 
-### 
+* [Figma](https://figma.com)
 
