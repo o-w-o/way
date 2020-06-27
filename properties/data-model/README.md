@@ -1,11 +1,11 @@
 # 数据模型
 
 ## IO 模块
-### 规范化接口相应
+### 规范化接口响应
 
-![规范化接口相应 UML 状态图](io--api.state.svg)
+![规范化接口响应 UML 状态图](io--api.state.svg)
 
-![规范化接口相应 UML 类图](io--api.class.svg)
+![规范化接口响应 UML 类图](io--api.class.svg)
 
 ### 授权与认证模块
 

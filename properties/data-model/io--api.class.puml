@@ -2,7 +2,7 @@
 
 header 烛火录
 
-title 规范化接口相应
+title 规范化接口响应
 
 package o.w.o.server.io.api {
   class API {

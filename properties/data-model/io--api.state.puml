@@ -2,7 +2,7 @@
 
 header 烛火录
 
-title 规范化接口相应
+title 规范化接口响应
 
 state "Request 接口请求" as Request
 state "Service 服务响应" as Service
