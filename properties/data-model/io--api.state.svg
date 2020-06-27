@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="323px" preserveAspectRatio="none" style="width:670px;height:323px;" version="1.1" viewBox="0 0 670 323" width="670px" zoomAndPan="magnify"><defs><filter height="300%" id="faiykjkul7y2l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="30" x="628" y="11.46">烛火录</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="126" x="266" y="34.2852">规范化接口相应</text><rect fill="#FEFECE" filter="url(#faiykjkul7y2l)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="133" x="61.5" y="46.2402"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="61.5" x2="194.5" y1="75.3604" y2="75.3604"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="71.5" y="67.2842">Request 接口请求</text><rect fill="#FEFECE" filter="url(#faiykjkul7y2l)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="127" x="229.5" y="46.2402"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="229.5" x2="356.5" y1="75.3604" y2="75.3604"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="107" x="239.5" y="67.2842">Service 服务响应</text><polygon fill="#FEFECE" filter="url(#faiykjkul7y2l)" points="457,59.2402,469,71.2402,457,83.2402,445,71.2402,457,59.2402" style="stroke: #A80036; stroke-width: 1.5;"/><rect fill="#FEFECE" filter="url(#faiykjkul7y2l)" height="55.5088" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="165" x="274.5" y="175.2402"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="274.5" x2="439.5" y1="204.3604" y2="204.3604"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="284.5" y="196.2842">Request 接口响应</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="401.5" y="196.2842">正常</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="279.5" y="223.1123">载荷</text><rect fill="#FEFECE" filter="url(#faiykjkul7y2l)" height="55.5088" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="165" x="474.5" y="175.2402"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="474.5" x2="639.5" y1="204.3604" y2="204.3604"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="484.5" y="196.2842">Request 接口响应</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="601.5" y="196.2842">异常</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="479.5" y="223.1123">异常</text><ellipse cx="16" cy="71.2402" fill="#000000" filter="url(#faiykjkul7y2l)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><ellipse cx="476" cy="302.2402" fill="none" filter="url(#faiykjkul7y2l)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="476.5" cy="302.7402" fill="#000000" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/><!--MD5=[bb147f5e3c360795171d97d9b79e6709]
+link *start to Request--><path d="M26.0625,71.2402 C36.009,71.2402 45.9556,71.2402 55.9021,71.2402 " fill="none" id="*start-&gt;Request" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="61.1035,71.2402,52.1035,67.2402,56.1035,71.2402,52.1035,75.2402,61.1035,71.2402" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5ca31c2674ab687c36d639b58388d71e]
+link Request to Service--><path d="M194.709,71.2402 C204.518,71.2402 214.326,71.2402 224.135,71.2402 " fill="none" id="Request-&gt;Service" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="229.264,71.2402,220.264,67.2402,224.264,71.2402,220.264,75.2402,229.264,71.2402" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a4d1f231050ef7324fd85a1671db3c76]
+link Service to c--><path d="M356.876,71.2402 C386.8,71.2402 420.114,71.2402 439.776,71.2402 " fill="none" id="Service-&gt;c" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="444.945,71.2402,435.945,67.2402,439.945,71.2402,435.945,75.2402,444.945,71.2402" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="374.75" y="65.1382">服务处理</text><!--MD5=[1deaed5bfb7af939e135ac3307465c27]
+link c to Response--><path d="M451.909,78.5112 C443.799,88.5292 427.485,108.7932 414,126.2402 C402.757,140.7862 390.498,157.0742 380.24,170.8292 " fill="none" id="c-&gt;Response" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="377.124,175.0122,385.7091,170.1857,380.1116,171.003,379.2944,165.4055,377.124,175.0122" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="415" y="142.1382">服务处理成功</text><!--MD5=[9e802b35897cb20df17e414871572f50]
+link c to Exception--><path d="M461.823,78.5102 C474.443,94.9162 509.108,139.9802 532.924,170.9412 " fill="none" id="c-&gt;Exception" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="536.063,175.0222,533.7458,165.4499,533.0143,171.0592,527.4049,170.3278,536.063,175.0222" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="513" y="142.1382">服务处理失败</text><!--MD5=[afdeaeec9e72dbbfe311197995612dab]
+link Response to *end--><path d="M390.148,231.2601 C415.001,251.5179 447.539,278.0413 464.534,291.8938 " fill="none" id="Response-&gt;*end" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="468.505,295.1311,464.0555,286.3447,464.6292,291.9723,459.0015,292.546,468.505,295.1311" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d5b7f11f6b4dcbf9d07ead7df1d319c9]
+link Exception to *end--><path d="M534.437,231.2601 C518.316,250.565 497.445,275.5597 485.506,289.8567 " fill="none" id="Exception-&gt;*end" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="482.103,293.9321,490.9416,289.5871,485.3075,290.094,484.8006,284.4599,482.103,293.9321" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[764a328f0e8dbd704ebfb4beb0109251]
+@startuml
+
+header 烛火录
+
+title 规范化接口相应
+
+state "Request 接口请求" as Request
+state "Service 服务响应" as Service
+state c <<choice>>
+state "Request 接口响应 **正常**" as Response
+state "Request 接口响应 **异常**" as Exception
+
+Response : 载荷
+Exception : 异常
+
+[*] -> Request
+
+Request -> Service
+Service -> c : 服务处理
+
+c - -> Response : 服务处理成功
+c - -> Exception : 服务处理失败
+
+Response - -> [*]
+Exception - -> [*]
+
+@enduml
+
+PlantUML version 1.2020.09(Sun May 10 18:51:06 CST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-b765.53
+Operating System: Windows 10
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>
