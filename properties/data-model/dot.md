@@ -20,7 +20,6 @@ public class Dot {
   private Date cTime;
   private Date uTime;
 }
-
 ```
 {% endtab %}
 
@@ -30,7 +29,7 @@ public abstract class DotSpace {
   @Id
   protected String id;
   protected DotType.DotTypeEnum type;
-  
+
   protected Map<String, Object> space;
 }
 ```
