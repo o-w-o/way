@@ -48,6 +48,8 @@
   * [UTM - Urchin Tracking Module](appendixs/wiki/utm.md)
   * [Open Graph 标签](appendixs/wiki/open-graph.md)
   * [Semver](appendixs/wiki/semver.md)
+  * [UML](appendixs/wiki/uml/README.md)
+    * [箭头和线条的含义和用法](appendixs/wiki/uml/arrows-and-lines.md)
 * [工具](appendixs/tools/README.md)
   * [配色](appendixs/tools/palette.md)
 * [Git Commit 规范](appendixs/git-commit.md)

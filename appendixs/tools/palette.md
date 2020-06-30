@@ -12,13 +12,11 @@ description: 色彩配置和预设工具
 
 {% embed url="https://colorhunt.co/" caption="Color Hunt 配色网" %}
 
-
-
 ## 渐变色
 
-{% embed url="https://gradienthunt.com/" %}
+{% embed url="https://gradienthunt.com/" caption="" %}
 
 ### 按钮
 
-{% embed url="https://gradientbuttons.colorion.co/" %}
+{% embed url="https://gradientbuttons.colorion.co/" caption="" %}
 
