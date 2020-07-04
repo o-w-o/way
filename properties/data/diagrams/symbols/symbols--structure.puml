@@ -1,5 +1,7 @@
 @startuml
 
+header 烛火录
+title Symbols 结构
 
 package o.w.o.server.io.db {
     class EntityIdentity {
